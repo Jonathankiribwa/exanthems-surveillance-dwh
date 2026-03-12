@@ -1,0 +1,4 @@
+timestamp,district,symptoms,neural_confidence,symbolic_clade_prediction,status
+2026-03-10 16:11:26,Nakasongola,Lymph,45.6%,Non-Specific Exanthem,Awaiting_Human_Validation
+2026-03-10 16:12:32,Nakasongola,Fever,91.2%,Non-Specific Exanthem,Awaiting_Human_Validation
+2026-03-12 08:57:57,Nakasongola,Fever,91.2%,Non-Specific Exanthem,Awaiting_Human_Validation
