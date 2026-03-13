@@ -25,7 +25,7 @@ def save_to_bronze(district, symptoms, neural_conf, symbolic_result):
         df.to_csv(BRONZE_PATH, mode='a', header=False, index=False)
 
 # --- 2. PAGE CONFIG ---
-st.set_page_config(page_title="Mpox Semantic Surveillance", layout="wide", page_icon="🛡️")
+st.set_page_config(page_title="Exanthems Semantic Surveillance", layout="wide", page_icon="🛡️")
 
 # --- 3. SIDEBAR ---
 with st.sidebar:
@@ -36,7 +36,7 @@ with st.sidebar:
 
 # --- 4. PAGE: REPORTING PORTAL ---
 if page == "📡 Reporting Portal":
-    st.header("🛡️ Mpox Community Reporting Portal")
+    st.header("🛡️ Exanthems Community Reporting Portal")
     
     col1, col2 = st.columns([1, 1], gap="large")
 
