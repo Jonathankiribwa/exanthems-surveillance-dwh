@@ -56,7 +56,6 @@ st.markdown("""
 
 # --- Sidebar Navigation ---
 with st.sidebar:
-    st.image("https://seeklogo.com/vector-logo/550310/makerere-university-mak-uganda", width=120)
     st.markdown("### System Navigation")
     page = st.radio("", ["📊 Surveillance Dashboard", "📸 Live Data Capture", "🕸️ Knowledge Graph View"])
     st.divider()
